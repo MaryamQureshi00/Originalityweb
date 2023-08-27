@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    /* Use flexbox to align items horizontally */
+    align-items: center;
+    /* Center items vertically */
+    background-color: black;
+    width: 1080;
+}
+
+/* Style for the heading */
+.heading {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    margin-right: 10px;
+    /* Add some spacing between the heading and paragraph */
+    margin-left: 20px;
+}
+
+/* Style for the paragraph */
+.one {
+    color: aliceblue;
+    font-size: 18px;
+    /* Adjust the font size as needed */
+    margin-left: 500px;
+    word-spacing: 1em;
+}
+
+.image {
+    height: 150px;
+    width: 885px;
+    /* align-items: center; */
+    background-image: url(./female\ web\ developer.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 87.7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    align-items: center;
+    position: absolute;
+    top: 13.6%;
+    height: 325px;
+    width: 1060.5px;
+    background-color: rgba(73, 205, 245, 0.614);
+}
+
+.Originality {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 9%;
+}
+
+.two {
+    color: rgb(255, 255, 255);
+}
+
+.second-paragraph {
+    background-color: rgb(194, 193, 193);
+    padding: 20PX;
+    left: 0;
+    right: 0;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.three {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.third {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.four {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 15%;
+}
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.box {
+    width: 300px;
+    height: 170px;
+    border-radius: 5px;
+    margin: 20px;
+    letter-spacing: 1px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.box h3 {
+    font-size: 22px;
+}
+
+.box p {
+    font-size: 15px;
+}
